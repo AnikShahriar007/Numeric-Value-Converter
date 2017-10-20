@@ -31,7 +31,7 @@ class NumericValueConverter:    # This class contains the mainmenu and convertio
     def decimalConverter(self):
         dec = Decimal()
         decimal = int(raw_input(" Decimal     : "))
-        binary = dec.toBinary(decimal) # Convert decimal to binary by calling 'toBinary' method of class object 'converter'
+        binary = dec.toBinary(decimal)
         octal = dec.toOctal(decimal) 
         hexadecimal = dec.toHexadecimal(decimal)
         print " Binary      : %d" % binary
